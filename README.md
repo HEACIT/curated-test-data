@@ -57,7 +57,7 @@ Example:
 ### Script to download / generate the test data 
 Recommended, but not required. This could be e.g. a `wget` command to download the data or a series of ftools calls. 
 
-*This can help to reproduce this or similar files if the datafiles ever need to be upgraded. Even if archived and APIs change, it can provide a documentation of what was done and a starting point for later upgrades.*
+*This can help to reproduce this or similar files if the datafiles ever need to be upgraded. Even if archives and APIs change, it can provide a documentation of what was done and a starting point for later upgrades.*
 
 ## Data storage
 Data files can be relatively big (e.g. a typical Chandra/MEG RMF is almost 20 MB), but they should be updated rarely, so that is not a show-stopper for github. Data is collected here because it is easy to contribute via pull requests.

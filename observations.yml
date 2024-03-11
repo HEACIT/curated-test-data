@@ -1,0 +1,24 @@
+# This file contains the list of observations contained in this repository.
+- name: "Chandra/ACIS"
+  path: "Chandra/ACIS/acisf04487_001N023_r0009_pha3.fits.gz"
+
+- name: "Chandra/LETGS"
+  path: "Chandra/LETGS/pha2.gz"
+
+- name: "NuSTAR/FPMA"
+  path: "NuSTAR/FPMA/nu90402339002A01_sr.pha"
+
+- name: "NuSTAR/FPMB"
+  path: "NuSTAR/FPMB/nu90402339002B01_sr.pha"
+
+- name: "XMM-Newton/EPIC-pn"
+  path: "XMM-Newton/EPIC-PN/PN_spectrum_grp20.fits"
+
+- name: "XMM-Newton/EPIC-MOS1"
+  path: "XMM-Newton/EPIC-MOS1/MOS1_spectrum_grp.fits"
+
+- name: "XMM-Newton/EPIC-MOS2"
+  path: "XMM-Newton/EPIC-MOS2/MOS2_spectrum_grp.fits"
+
+- name: "XMM-Newton/RGS"
+  path: "XMM-Newton/RGS/P0871591801R1S004SRSPEC1003.FIT.gz"

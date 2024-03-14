@@ -1,24 +1,45 @@
 # This file contains the list of observations contained in this repository.
 - name: "Chandra/ACIS"
-  path: "Chandra/ACIS/acisf04487_001N023_r0009_pha3.fits.gz"
-
-- name: "Chandra/LETGS"
-  path: "Chandra/LETGS/pha2.gz"
+  pha_path: "Chandra/ACIS/acisf04487_001N023_r0009_pha3.fits.gz"
+  rmf_path: "Chandra/ACIS/acisf04487_001N022_r0009_rmf3.fits.gz"
+  arf_path: "Chandra/ACIS/acisf04487_001N022_r0009_arf3.fits.gz"
 
 - name: "NuSTAR/FPMA"
-  path: "NuSTAR/FPMA/nu90402339002A01_sr.pha"
+  pha_path: "NuSTAR/FPMA/nu90402339002A01_sr.pha"
+  rmf_path: "NuSTAR/FPMA/nu90402339002A01_sr.rmf"
+  arf_path: "NuSTAR/FPMA/nu90402339002A01_sr.arf"
 
 - name: "NuSTAR/FPMB"
-  path: "NuSTAR/FPMB/nu90402339002B01_sr.pha"
+  pha_path: "NuSTAR/FPMB/nu90402339002B01_sr.pha"
+  rmf_path: "NuSTAR/FPMB/nu90402339002B01_sr.rmf"
+  arf_path: "NuSTAR/FPMB/nu90402339002B01_sr.arf"
 
 - name: "XMM-Newton/EPIC-pn"
-  path: "XMM-Newton/EPIC-PN/PN_spectrum_grp20.fits"
+  pha_path: "XMM-Newton/EPIC-PN/PN_spectrum_grp20.fits"
+  rmf_path: "XMM-Newton/EPIC-PN/PN.rmf"
+  arf_path: "XMM-Newton/EPIC-PN/PN.arf"
 
 - name: "XMM-Newton/EPIC-MOS1"
-  path: "XMM-Newton/EPIC-MOS1/MOS1_spectrum_grp.fits"
+  pha_path: "XMM-Newton/EPIC-MOS1/MOS1_spectrum_grp.fits"
+  rmf_path: "XMM-Newton/EPIC-MOS1/MOS1.rmf"
+  arf_path: "XMM-Newton/EPIC-MOS1/MOS1.arf"
 
 - name: "XMM-Newton/EPIC-MOS2"
-  path: "XMM-Newton/EPIC-MOS2/MOS2_spectrum_grp.fits"
+  pha_path: "XMM-Newton/EPIC-MOS2/MOS2_spectrum_grp.fits"
+  rmf_path: "XMM-Newton/EPIC-MOS2/MOS2.rmf"
+  arf_path: "XMM-Newton/EPIC-MOS2/MOS2.arf"
 
 - name: "XMM-Newton/RGS"
-  path: "XMM-Newton/RGS/P0871591801R1S004SRSPEC1003.FIT.gz"
+  pha_path: "XMM-Newton/RGS/P0871591801R1S004SRSPEC1003.FIT.gz"
+  rmf_path: "XMM-Newton/RGS/P0871591801R1S004RSPMAT1003.FIT.gz"
+
+- name: "NICER/XTI"
+  pha_path: "NICER/XTI/g2_b_001_raw_opt.pha"
+  rmf_path: "NICER/XTI/2050300110.rmf"
+  arf_path: "NICER/XTI/2050300110_g2_b_001.arf"
+
+
+- name: "XRISM/Resolve"
+  pha_path: "XRISM/Resolve/xa_merged_p0px1000_Hp.pi.gz"
+  rmf_path: "XRISM/Resolve/xa_merged_p0px1000_HpS.rmf.gz"
+  arf_path: "XRISM/Resolve/rsl_standard_GVclosed.arf"

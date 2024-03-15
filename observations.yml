@@ -4,6 +4,9 @@
   rmf_path: "Chandra/ACIS/acisf04487_001N022_r0009_rmf3.fits.gz"
   arf_path: "Chandra/ACIS/acisf04487_001N022_r0009_arf3.fits.gz"
 
+- name: "Chandra/LETGS"
+  pha_path: "Chandra/LETGS/pha2.gz"
+
 - name: "NuSTAR/FPMA"
   pha_path: "NuSTAR/FPMA/nu90402339002A01_sr.pha"
   rmf_path: "NuSTAR/FPMA/nu90402339002A01_sr.rmf"
@@ -37,7 +40,6 @@
   pha_path: "NICER/XTI/g2_b_001_raw_opt.pha"
   rmf_path: "NICER/XTI/2050300110.rmf"
   arf_path: "NICER/XTI/2050300110_g2_b_001.arf"
-
 
 - name: "XRISM/Resolve"
   pha_path: "XRISM/Resolve/xa_merged_p0px1000_Hp.pi.gz"

@@ -6,6 +6,8 @@
 
 - name: "Chandra/LETGS"
   pha_path: "Chandra/LETGS/pha2.gz"
+  rmf_path: "Chandra/LETGS/leg_1.rmf.gz"
+  arf_path: "Chandra/LETGS/leg_1.arf.gz"
 
 - name: "NuSTAR/FPMA"
   pha_path: "NuSTAR/FPMA/nu90402339002A01_sr.pha"
@@ -45,3 +47,8 @@
   pha_path: "XRISM/Resolve/xa_merged_p0px1000_Hp.pi.gz"
   rmf_path: "XRISM/Resolve/xa_merged_p0px1000_HpS.rmf.gz"
   arf_path: "XRISM/Resolve/rsl_standard_GVclosed.arf"
+
+- name: "Hitomi/SXS"
+  pha_path: "Hitomi/SXS/ah100040040sxs_src_grp.pha.gz"
+  rmf_path: "Hitomi/SXS/ah100040040sxs.rmf.gz"
+  arf_path: "Hitomi/SXS/ah100040040sxs.arf.gz"
